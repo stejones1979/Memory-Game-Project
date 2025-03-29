@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url('background.jpg');
+}
+ 
+ h1{
+  color: white;
+ }
+ 
+ #resetButton{
+  background: blue;
+  color: white;
+  margin-top: 20px;
+
+ }
+
+ #moveCount{
+  color: white;
+  margin-top: 20px;
+}
+
+ .grid {
+    
+    height: 532px;
+    width: 475px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    border: 5px solid black;
+  }
+  .card {
+    width: 90px;
+    height: 128px;
+    margin: 2.5px;
+    background-color: black ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    
+  }
